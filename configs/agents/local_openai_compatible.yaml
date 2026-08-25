@@ -1,0 +1,10 @@
+agent:
+  name: local_openai_compatible
+  provider: openai_compatible
+  model: local-model
+  base_url: http://127.0.0.1:8000/v1
+  api_key_env: LOCAL_LLM_API_KEY
+  temperature: 0
+  max_tokens: 8192
+  response_format: text
+  tool_protocol: text

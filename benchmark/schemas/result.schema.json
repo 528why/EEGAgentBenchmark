@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EEG-AgentBench Run Result",
+  "type": "object",
+  "required": ["scenario_id", "status"],
+  "properties": {
+    "scenario_id": {"type": "string"},
+    "status": {
+      "type": "string",
+      "enum": ["completed", "failed", "max_turns_exceeded"]
+    },
+    "prediction": {"type": "object"},
+    "score": {
+      "type": "object",
+      "additionalProperties": {"type": "number"}
+    },
+    "score_details": {"type": "object"},
+    "usage": {
+      "type": "object",
+      "properties": {
+        "tool_calls": {"type": "integer"},
+        "turns": {"type": "integer"},
+        "wall_time_sec": {"type": "number"}
+      }
+    },
+    "error": {"type": ["string", "null"]}
+  }
+}

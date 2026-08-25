@@ -1,0 +1,30 @@
+{
+  "schema": "eegagentbench/benchmark/v1",
+  "name": "EEGAgentBench",
+  "version": "1.0.0",
+  "total_instances": 1072,
+  "official_tools": [
+    "get_recording_info",
+    "get_channel_list",
+    "compute_noise_metrics",
+    "compute_psd",
+    "compute_band_power",
+    "detect_transients",
+    "compute_temporal_features",
+    "compute_asymmetry",
+    "compute_channel_correlation",
+    "compute_windowed_features"
+  ],
+  "tasks": {
+    "T1": {"task_key": "knowledge_qa", "count": 38, "max_turns": 1000, "max_tool_calls": 0, "primary_metric": "accuracy"},
+    "T2": {"task_key": "artifact_identification", "count": 300, "max_turns": 1000, "max_tool_calls": 999, "primary_metric": "macro_f1", "secondary_metrics": ["accuracy"]},
+    "T3": {"task_key": "epilepsy_screening", "count": 188, "max_turns": 1000, "max_tool_calls": 999, "primary_metric": "macro_f1", "secondary_metrics": ["accuracy"]},
+    "T4": {"task_key": "dementia_cohort_classification", "count": 69, "max_turns": 1000, "max_tool_calls": 999, "primary_metric": "macro_f1", "secondary_metrics": ["accuracy"]},
+    "T5": {"task_key": "seizure_detection", "count": 280, "max_turns": 1000, "max_tool_calls": 999, "primary_metric": "event_f1", "secondary_metrics": ["dice_s"]},
+    "T6": {"task_key": "sleep_staging", "count": 197, "max_turns": 1000, "max_tool_calls": 999, "primary_metric": "macro_f1", "secondary_metrics": ["cohen_kappa"]}
+  },
+  "overall": {
+    "aggregation": "unweighted_mean",
+    "components": ["T1.accuracy", "T2.macro_f1", "T3.macro_f1", "T4.macro_f1", "T5.event_f1", "T6.macro_f1"]
+  }
+}

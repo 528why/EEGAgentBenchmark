@@ -1,0 +1,12 @@
+# The 10 deterministic tools used for all signal tasks in the paper.
+tools:
+  - get_recording_info
+  - get_channel_list
+  - compute_noise_metrics
+  - compute_psd
+  - compute_band_power
+  - detect_transients
+  - compute_temporal_features
+  - compute_asymmetry
+  - compute_channel_correlation
+  - compute_windowed_features

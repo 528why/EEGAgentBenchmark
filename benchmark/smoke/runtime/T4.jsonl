@@ -1,0 +1,3 @@
+{"scenario_id":"c3_cohort_ds004504_sub-001_task-eyesclosed","records":[{"record_id":"EEG_0001","data_path":"data/ds004504/sub-001/eeg/sub-001_task-eyesclosed_eeg.set"}]}
+{"scenario_id":"c3_cohort_ds004504_sub-038_task-eyesclosed","records":[{"record_id":"EEG_0038","data_path":"data/ds004504/sub-038/eeg/sub-038_task-eyesclosed_eeg.set"}]}
+{"scenario_id":"c3_cohort_ds004504_sub-066_task-eyesclosed","records":[{"record_id":"EEG_0066","data_path":"data/ds004504/sub-066/eeg/sub-066_task-eyesclosed_eeg.set"}]}

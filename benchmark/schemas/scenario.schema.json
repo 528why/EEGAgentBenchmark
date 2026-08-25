@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EEG-AgentBench Scenario",
+  "type": "object",
+  "required": ["scenario_id", "task_id", "dataset", "input", "access", "evaluator"],
+  "properties": {
+    "scenario_id": {"type": "string"},
+    "task_id": {"type": "string"},
+    "task_name": {"type": "string"},
+    "dataset": {"type": "string"},
+    "dataset_version": {"type": "string"},
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["record_id"],
+        "properties": {
+          "record_id": {"type": "string"},
+          "role": {"type": "string", "enum": ["target", "reference", "query"]},
+          "order": {"type": "integer"}
+        }
+      }
+    },
+    "subjects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["subject_id"],
+        "properties": {
+          "subject_id": {"type": "string"},
+          "role": {"type": "string", "enum": ["reference", "query"]},
+          "label_visible_to_agent": {"type": "string"}
+        }
+      }
+    },
+    "input": {"type": "object"},
+    "access": {
+      "type": "object",
+      "required": ["mode"],
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": ["metadata_only_without_tools", "metadata_with_tools", "multi_subject", "sequential_records"]
+        },
+        "allowed_tools": {"type": "array", "items": {"type": "string"}},
+        "forward_only": {"type": "boolean"},
+        "max_turns": {"type": "integer", "minimum": 1}
+      }
+    },
+    "expected_output_schema": {"type": "object"},
+    "evaluator": {
+      "type": "object",
+      "properties": {
+        "primary": {"type": "string"},
+        "secondary": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "release": {
+      "type": "object",
+      "properties": {
+        "split": {"type": "string"},
+        "include_gold_in_release": {"type": "boolean"}
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,3 @@
+{"scenario_id":"c3_cohort_ds004504_sub-001_task-eyesclosed","gold":{"label":"AD","finding_tags":[]}}
+{"scenario_id":"c3_cohort_ds004504_sub-038_task-eyesclosed","gold":{"label":"HC","finding_tags":[]}}
+{"scenario_id":"c3_cohort_ds004504_sub-066_task-eyesclosed","gold":{"label":"FTD","finding_tags":[]}}

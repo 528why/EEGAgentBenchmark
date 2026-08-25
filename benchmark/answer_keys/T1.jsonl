@@ -1,0 +1,38 @@
+{"scenario_id":"k0_medmcqa_84021fac-4a52-47bd-b87c-70201fc0f5e6","gold":{"answer":"A","answer_text":"Diet and weight reduction"}}
+{"scenario_id":"k0_medmcqa_3695ce48-9b9c-4155-9877-2e7866a7bc88","gold":{"answer":"D","answer_text":"Absent seizures"}}
+{"scenario_id":"k0_medmcqa_b4da767b-9043-4fc3-aeac-84b231c4ded7","gold":{"answer":"B","answer_text":"ab"}}
+{"scenario_id":"k0_medmcqa_370b177b-dc10-473a-b740-ab8dc536c5f0","gold":{"answer":"C","answer_text":"Sleep spindles, N2"}}
+{"scenario_id":"k0_medmcqa_1086306c-85ea-4478-9b5e-3eb28a4c0737","gold":{"answer":"B","answer_text":"REM sleep"}}
+{"scenario_id":"k0_medmcqa_2cf1ac93-b2df-45b6-a2b7-e70c66470762","gold":{"answer":"C","answer_text":"3 Hz spike & wave"}}
+{"scenario_id":"k0_medmcqa_7e98b626-7276-4620-af84-4276dce15f10","gold":{"answer":"D","answer_text":"Hepatic encephalopathy"}}
+{"scenario_id":"k0_medmcqa_1fc227ee-4656-4023-989c-64480ec6e191","gold":{"answer":"C","answer_text":"3-Hz spike-and-waves"}}
+{"scenario_id":"k0_medmcqa_75a0a8bd-772a-4793-9ee9-5d0ea49ccb79","gold":{"answer":"A","answer_text":"Delirium"}}
+{"scenario_id":"k0_medmcqa_bc8c4222-c1cd-4ed6-b59b-aa6166691c11","gold":{"answer":"C","answer_text":"SSPE"}}
+{"scenario_id":"k0_medmcqa_b739ffa8-d649-4aea-ba12-953c219438a9","gold":{"answer":"D","answer_text":"Juvenile myoclonic epilepsy"}}
+{"scenario_id":"k0_medmcqa_81740eac-3c91-4797-9d6a-551f2d4cdfb1","gold":{"answer":"B","answer_text":"Stage 1 sleep"}}
+{"scenario_id":"k0_medmcqa_64a8c094-3dd0-42de-94ef-6da630c3a33d","gold":{"answer":"D","answer_text":"Awake with eyes open"}}
+{"scenario_id":"k0_medmcqa_866337bb-7d23-41e9-a750-54c4b30614df","gold":{"answer":"D","answer_text":"Absence seizures"}}
+{"scenario_id":"k0_medmcqa_f6d5c8e8-c3d8-4bef-b661-b3b07398c14a","gold":{"answer":"A","answer_text":"Sleep spindles, N2"}}
+{"scenario_id":"k0_medmcqa_8db0d1bb-b0b7-488b-86df-b52828e72cf1","gold":{"answer":"C","answer_text":"Alpha"}}
+{"scenario_id":"k0_medmcqa_c7e0de4d-3eef-496e-bf11-a8845b305969","gold":{"answer":"A","answer_text":"3 Hz spike and wave"}}
+{"scenario_id":"k0_medmcqa_5a4564f0-65e3-46f7-b2fc-df1f069f934c","gold":{"answer":"A","answer_text":"Hypsarrhythmia"}}
+{"scenario_id":"k0_medmcqa_984176b5-9c19-4255-afc0-4e3d2fcb487e","gold":{"answer":"B","answer_text":"Creutzfeldt-Jakob Disease"}}
+{"scenario_id":"k0_medmcqa_7e66ecd4-176f-4245-a82d-12b10c095392","gold":{"answer":"D","answer_text":"abde"}}
+{"scenario_id":"k0_medmcqa_db0a4d80-721b-4110-97af-892752831c98","gold":{"answer":"A","answer_text":"Awake"}}
+{"scenario_id":"k0_medmcqa_6b8217cb-c67d-43a8-a7de-8ef94e42f53b","gold":{"answer":"A","answer_text":"Continue for 2 years"}}
+{"scenario_id":"k0_medmcqa_5fd6c895-6a9a-4d5f-aa1c-706b726c71de","gold":{"answer":"A","answer_text":"High amplitude, slow waves"}}
+{"scenario_id":"k0_medmcqa_f5303248-519a-4881-a240-aee3630d0a30","gold":{"answer":"B","answer_text":"SSPE"}}
+{"scenario_id":"k0_medmcqa_cbfa10e2-ac71-4eaa-a510-604647b419d9","gold":{"answer":"A","answer_text":"Delirium"}}
+{"scenario_id":"k0_medmcqa_baa06269-c296-4959-940b-6965a37419ff","gold":{"answer":"C","answer_text":"abde"}}
+{"scenario_id":"k0_medmcqa_f0080e82-d355-4575-9f16-fc528ab4872f","gold":{"answer":"A","answer_text":"Sub-acute sclerosing panencephalitis (SSPE)"}}
+{"scenario_id":"k0_medmcqa_c2aa1968-e2bf-4ad5-baf8-c62807bb6505","gold":{"answer":"A","answer_text":"Delirium"}}
+{"scenario_id":"k0_medmcqa_52427110-d810-48c1-82c9-ed83a4cf3b17","gold":{"answer":"C","answer_text":"Juvenile myoclonic epilepsy"}}
+{"scenario_id":"k0_medmcqa_11a1a71a-420c-4ee5-ba97-b699bd42205a","gold":{"answer":"A","answer_text":"SSPE"}}
+{"scenario_id":"k0_medmcqa_c3ecdc55-9ba0-41ca-b534-64300f896680","gold":{"answer":"D","answer_text":"Alpha"}}
+{"scenario_id":"k0_medmcqa_804c103b-7590-44e1-90de-a59d995ce5b7","gold":{"answer":"A","answer_text":"SSPE"}}
+{"scenario_id":"k0_medmcqa_e1ac3c64-33bb-4d92-96fa-8c055de6238c","gold":{"answer":"A","answer_text":"b-a-th-S"}}
+{"scenario_id":"k0_medmcqa_979dde94-0c34-42e4-b469-659feb7de2fe","gold":{"answer":"B","answer_text":"Coma stage-IV"}}
+{"scenario_id":"k0_medmcqa_7c6863be-5c1c-456e-a61e-43e020a49b05","gold":{"answer":"C","answer_text":"50 mv"}}
+{"scenario_id":"k0_medmcqa_90252609-b0bf-4455-9576-b318fe579e69","gold":{"answer":"C","answer_text":"Beta"}}
+{"scenario_id":"k0_medmcqa_191f2f7c-eb14-4b08-8718-310837de839f","gold":{"answer":"A","answer_text":"Beta"}}
+{"scenario_id":"k0_medmcqa_42924e5a-723d-478f-ab78-a46ec8e8041b","gold":{"answer":"D","answer_text":"Supine position"}}

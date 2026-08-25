@@ -1,0 +1,2 @@
+{"scenario_id":"c1_seizure_chb01_03","gold":{"label":"seizure","has_seizure":true,"n_seizures":1,"seizure_events":[[2996.0,3036.0]]}}
+{"scenario_id":"c1_seizure_chb01_06","gold":{"label":"no_seizure","has_seizure":false,"n_seizures":0,"seizure_events":[]}}
