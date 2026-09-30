@@ -2,7 +2,7 @@
 
 **Benchmarking LLM Agents on Short- and Long-Horizon EEG Analysis**
 
-🌐 [Project Page](https://528why.github.io/EEGAgentBench-Page/) &nbsp;•&nbsp; 📄 Paper (coming soon) &nbsp;•&nbsp; 🤗 [Dataset](https://huggingface.co/datasets/whhhy123/EEGAgentBenchmark) &nbsp;•&nbsp; 💻 [Code](https://github.com/528why/EEGAgentBenchmark)
+🌐 [Project Page](https://528why.github.io/EEGAgentBench-Page/) &nbsp;•&nbsp; 📄 [Paper](https://arxiv.org/pdf/2609.31632) &nbsp;•&nbsp; 🤗 [Dataset](https://huggingface.co/datasets/whhhy123/EEGAgentBenchmark) &nbsp;•&nbsp; 💻 [Code](https://github.com/528why/EEGAgentBenchmark)
 
 EEGAgentBench is a unified benchmark for evaluating general-purpose LLM agents
 on tool-based EEG analysis. EEG analysis is evolving from short-segment
